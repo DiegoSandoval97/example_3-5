@@ -1,3 +1,20 @@
+/**
+* @file main.cpp
+* @author Sandoval, Raña
+* @date 30/03/2023
+* @brief Manejo de tiempos, comunicación serie y señales analógicas con el NUCLEO-F429ZI
+*
+* @details Hay dos carpetas 
+* En Build, está el archivo mbed_config.h donde están definidas las constantes que usa mbed. 
+* En mbed-os, están las librerías de mbed
+* Luego, hay 6 archivos:
+*       .gitignore es un archivo que indica a Git que archivos o carpetas ignorar
+*       .mbed indica el modelo del dispositivo a trabajar
+*       arm_book_lib.h Es una librería armada por el libro para trabajar con los ejemplos
+*       compile_commands.json es un archivo json con los comandos para compilar
+*       main.cpp archivo principal del proyecto en c++ 
+*       mbed-os.lib link a mbed O
+*/
 //=====[Libraries]=============================================================
 
 #include "mbed.h"

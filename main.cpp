@@ -22,7 +22,7 @@
 
 /** /mbed-os/.mbed
 * mbed.h incluye las librerias correspondientes a los objetos
-* que desarrolló mbed para trabajar con la plafa NUCLEO F429ZI
+* que desarrolló mbed para trabajar con la placa NUCLEO F429ZI
 * Por ejemplo, incluye el archivo DigitalIn.h */
 #include "mbed.h"
 #include "arm_book_lib.h"
@@ -42,7 +42,7 @@
 /**
 * @brief La clase se encuentra en /drivers/include/drivers/DigitalIn.h
 * @details
-* Parra iniciar las entradas digitales se utiliza
+* Para iniciar las entradas digitales se utiliza
 * el constructor de la clase DigitalIn que recibe
 * como argumento el pin físico al que estará asociado.
 *
